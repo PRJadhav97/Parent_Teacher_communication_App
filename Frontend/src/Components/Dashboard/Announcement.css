@@ -1,0 +1,98 @@
+
+  /* CSS for Announcements */
+.announcement-top-bar {
+    position: relative;
+   background-color: #343a40; /* Dark background color */
+    color: #fff;  
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .announcement-top-bar h2 {
+    margin: 0;
+  }
+  
+  .announcement-top-bar h4 {
+    margin: 0;
+  }
+  
+  /* CSS for scrollbar */
+  .alert-primary {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.5) rgba(0, 0, 0, 0);
+  }
+  
+  .alert-primary::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  .alert-primary::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+  }
+  
+  .alert-primary::-webkit-scrollbar-track {
+    background-color:  #343a40;
+  }
+
+  .announcement-heading {
+    margin: 0;
+    /* Bold font weight */
+    font-family:sans-serif
+  }
+
+  .announcement-content h4 {
+    margin: 0;
+    font-weight: 500; /* Medium font weight */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  /* CSS for the table */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    
+  }
+  
+  /* CSS for table header */
+  .table thead th {
+    background-color: #343a40; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* CSS for table rows */
+  .table tbody tr {
+    border-bottom: 1px solid #dee2e6; /* Light border color */
+  }
+  
+  /* CSS for alternate row colors */
+  .table tbody tr {
+    background-color: #f8f9fa; /* Light gray background color */
+  }
+  
+
+  
+  /* CSS for table cells */
+  .table td {
+    padding: 8px;
+  }
+  
+  /* CSS for table header cells */
+  .table th,
+  .table td {
+    border: 1px solid #dee2e6; /* Light border color */
+  }
+  
+  /* CSS for table hover effect */
+  .table tbody tr:hover {
+    background-color: #e9ecef; /* Light hover background color */
+  }
+
+  .container{
+    overflow-x: hidden;
+  }
+  

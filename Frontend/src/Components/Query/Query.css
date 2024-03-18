@@ -1,0 +1,47 @@
+.announcement-top-bar {
+    position: relative;
+    background-color: #1a485a;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .announcement-top-bar h2 {
+    margin: 0;
+  }
+  
+  .announcement-top-bar h4 {
+    margin: 0;
+  }
+  
+  /* CSS for scrollbar */
+  .alert-primary {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.5) rgba(0, 0, 0, 0);
+  }
+  
+  .alert-primary::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  .alert-primary::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+  }
+  
+  .alert-primary::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0);
+  }
+
+  .announcement-heading {
+    margin: 0;
+    /* Bold font weight */
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+  }
+
+  .announcement-content h4 {
+    margin: 0;
+    font-weight: 500; /* Medium font weight */
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
